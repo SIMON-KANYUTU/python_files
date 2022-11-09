@@ -3,3 +3,26 @@ Simplifies app debugging and maintenance – immediate feedback on the problems 
 Reduction of code length – Frameworks provide automation tools for standard tasks. Developers need not write the entire application code
 Improvement of database proficiency – Out of the box, most frameworks offer ORM engine that eliminate need to write SQL
 Web Security – Offer bult-in security features
+
+## Web Frameworks Key functionalities
+Routing URLs – providing specific resources by matching URL patterns
+Handling input forms – management and validation of form input
+API creation & handling – serving different data formats (JSON, XML, etc.) through API endpoints 
+Database connection & configuration – using ORM (object relation mappers)
+Web security – secure APIs, SQL injection prevention, and mitigating other threats
+Session management
+
+## Anatomy of web application
+Client/Presentation Layer: Consists of the user interface (app) and web browser, through which the user can make a request to the server, through URLs.
+API Layer: A layer that exposes different endpoints through which client can perform CRUD operations on the application. 
+Service/Application Layer: This layer holds the application’s business logic, and also facilitates resolving client requests and sending out the relevant responses through the API layer.
+Data Access Layer: Abstracts details of the data source access. This layer manages database connections, generates queries, and maps application entities to data stores
+
+Acronym for CREATE, READ, UPDATE and DELETE
+Mapping CRUD to HTTP
+
+CREATE -> HTTP POST: The client inserts/creates an object
+READ -> HTTP GET: The client wants to read an object
+UPDATE -> HTTP PUT: The client wants to update an object
+DELETE -> HTTP DELETE: The client wants to delete an object
+
